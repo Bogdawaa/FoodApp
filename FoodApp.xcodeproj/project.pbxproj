@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		431E4EC3252E22A800976A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431E4EC2252E22A800976A57 /* AppDelegate.swift */; };
 		431E4EC5252E22A800976A57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431E4EC4252E22A800976A57 /* SceneDelegate.swift */; };
-		431E4EC7252E22A800976A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431E4EC6252E22A800976A57 /* ViewController.swift */; };
+		431E4EC7252E22A800976A57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431E4EC6252E22A800976A57 /* MainViewController.swift */; };
 		431E4ECA252E22A800976A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431E4EC8252E22A800976A57 /* Main.storyboard */; };
-		431E4ECC252E22B000976A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431E4ECB252E22B000976A57 /* Assets.xcassets */; };
 		431E4ECF252E22B000976A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431E4ECD252E22B000976A57 /* LaunchScreen.storyboard */; };
+		432EB79F25F16CB60091CDB2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EB79D25F16CB60091CDB2 /* MyTableViewCell.swift */; };
+		432EB7A025F16CB60091CDB2 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432EB79E25F16CB60091CDB2 /* MyTableViewCell.xib */; };
+		432EB7A425F17D540091CDB2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432EB7A325F17D540091CDB2 /* Item.swift */; };
+		4347F70D25FFF81B00B4D993 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347F70C25FFF81B00B4D993 /* ShoppingCartViewController.swift */; };
+		434963C125EFE75F00E7C4F8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434963C025EFE75F00E7C4F8 /* MenuViewController.swift */; };
+		43AEF89125E82C6B00FA8395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AEF89025E82C6B00FA8395 /* Assets.xcassets */; };
+		43AEF89525E82EC700FA8395 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AEF89425E82EC700FA8395 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		431E4EBF252E22A800976A57 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		431E4EC2252E22A800976A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		431E4EC4252E22A800976A57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		431E4EC6252E22A800976A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		431E4EC6252E22A800976A57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		431E4EC9252E22A800976A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		431E4ECB252E22B000976A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431E4ECE252E22B000976A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431E4ED0252E22B000976A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432EB79D25F16CB60091CDB2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		432EB79E25F16CB60091CDB2 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		432EB7A325F17D540091CDB2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4347F70C25FFF81B00B4D993 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		434963C025EFE75F00E7C4F8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		43AEF89025E82C6B00FA8395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AEF89425E82EC700FA8395 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,43 @@
 			children = (
 				431E4EC2252E22A800976A57 /* AppDelegate.swift */,
 				431E4EC4252E22A800976A57 /* SceneDelegate.swift */,
-				431E4EC6252E22A800976A57 /* ViewController.swift */,
-				431E4EC8252E22A800976A57 /* Main.storyboard */,
-				431E4ECB252E22B000976A57 /* Assets.xcassets */,
-				431E4ECD252E22B000976A57 /* LaunchScreen.storyboard */,
+				432EB7A225F17B590091CDB2 /* Model */,
+				43AEF89725E82EDA00FA8395 /* Controller */,
+				43AEF89925E82F1300FA8395 /* View */,
+				43AEF89025E82C6B00FA8395 /* Assets.xcassets */,
 				431E4ED0252E22B000976A57 /* Info.plist */,
 			);
 			path = FoodApp;
+			sourceTree = "<group>";
+		};
+		432EB7A225F17B590091CDB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				432EB7A325F17D540091CDB2 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43AEF89725E82EDA00FA8395 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				431E4EC6252E22A800976A57 /* MainViewController.swift */,
+				43AEF89425E82EC700FA8395 /* AuthViewController.swift */,
+				434963C025EFE75F00E7C4F8 /* MenuViewController.swift */,
+				4347F70C25FFF81B00B4D993 /* ShoppingCartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		43AEF89925E82F1300FA8395 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				431E4EC8252E22A800976A57 /* Main.storyboard */,
+				431E4ECD252E22B000976A57 /* LaunchScreen.storyboard */,
+				432EB79D25F16CB60091CDB2 /* MyTableViewCell.swift */,
+				432EB79E25F16CB60091CDB2 /* MyTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				431E4ECF252E22B000976A57 /* LaunchScreen.storyboard in Resources */,
-				431E4ECC252E22B000976A57 /* Assets.xcassets in Resources */,
+				432EB7A025F16CB60091CDB2 /* MyTableViewCell.xib in Resources */,
+				43AEF89125E82C6B00FA8395 /* Assets.xcassets in Resources */,
 				431E4ECA252E22A800976A57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431E4EC7252E22A800976A57 /* ViewController.swift in Sources */,
+				4347F70D25FFF81B00B4D993 /* ShoppingCartViewController.swift in Sources */,
+				43AEF89525E82EC700FA8395 /* AuthViewController.swift in Sources */,
+				434963C125EFE75F00E7C4F8 /* MenuViewController.swift in Sources */,
+				431E4EC7252E22A800976A57 /* MainViewController.swift in Sources */,
 				431E4EC3252E22A800976A57 /* AppDelegate.swift in Sources */,
+				432EB7A425F17D540091CDB2 /* Item.swift in Sources */,
 				431E4EC5252E22A800976A57 /* SceneDelegate.swift in Sources */,
+				432EB79F25F16CB60091CDB2 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Camodo-dragon-company.FoodApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Camodo-dragon-company.FoodApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

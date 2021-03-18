@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "%E2%80%94Pngtree%E2%80%94beautiful%20coffee%20cup%20illustration_4562059.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
